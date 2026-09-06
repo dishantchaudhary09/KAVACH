@@ -1,0 +1,7 @@
+flask
+flask-cors
+python-dotenv
+numpy
+pandas
+scikit-learn>=1.9,<2
+gunicorn

@@ -1,0 +1,61 @@
+/* =========================================================
+   NORMAL MAP
+========================================================= */
+
+.admin-risk-map {
+  position: relative;
+  z-index: 1;
+  isolation: isolate;
+}
+
+/*
+  Leaflet normally uses high z-index values.
+  Keep all Leaflet layers below the application navbar.
+*/
+
+.admin-risk-map .leaflet-pane {
+  z-index: 300 !important;
+}
+
+.admin-risk-map .leaflet-tile-pane {
+  z-index: 200 !important;
+}
+
+.admin-risk-map .leaflet-overlay-pane {
+  z-index: 300 !important;
+}
+
+.admin-risk-map .leaflet-shadow-pane {
+  z-index: 400 !important;
+}
+
+.admin-risk-map .leaflet-marker-pane {
+  z-index: 400 !important;
+}
+
+.admin-risk-map .leaflet-tooltip-pane {
+  z-index: 500 !important;
+}
+
+.admin-risk-map .leaflet-popup-pane {
+  z-index: 600 !important;
+}
+
+.admin-risk-map .leaflet-control {
+  z-index: 700 !important;
+}
+
+.admin-risk-map .leaflet-top,
+.admin-risk-map .leaflet-bottom {
+  z-index: 700 !important;
+}
+
+/* =========================================================
+   FULL SCREEN MAP
+========================================================= */
+
+.admin-risk-map-expanded {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+}
