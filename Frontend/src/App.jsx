@@ -33,7 +33,7 @@ import CitizenProtectedRoute from "./Pages/Citizen Pages/Protection.jsx";
 import AdminDashboard from "./Pages/Admin Pages/Dashboard.jsx";
 import AdminRiskMap from "./Pages/Admin Pages/Riskmap.jsx";
 import AdminReports from "./Pages/Admin Pages/Report.jsx";
-import AdminAlerts from "./Pages/Admin Pages/alerts.jsx";
+import AdminAlerts from "./Pages/Admin Pages/Alert.jsx";
 import AdminRoads from "./Pages/Admin Pages/Roads.jsx";
 import AdminUsers from "./Pages/Admin Pages/Users.jsx";
 import AIMLMonitoring from "./Pages/Admin Pages/AiMl.jsx";
